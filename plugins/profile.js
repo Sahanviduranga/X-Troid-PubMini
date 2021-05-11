@@ -93,7 +93,7 @@ if (Config.WORKTYPE == 'private') {
         } else if (message.mention !== false) {
             message.mention.map(async user => {
                 await message.client.sendMessage(message.jid, Lang.JID.format(user.split('@')[0], user), MessageType.text, {
-                    contextInfo: {mentionedJid: [user.replace('c.us', 'x-troid.reports')]}
+                    contextInfo: {mentionedJid: [user.replace('g.us', 'x-troid.reports')]}
                 });    
             });
         } else {
