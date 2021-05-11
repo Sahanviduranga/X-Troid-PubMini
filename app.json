@@ -17,7 +17,7 @@
             "required": false
         },
         "LANGUAGE": {
-            "description": "වෙනස් නොකරන්න. ඉදිරියේ තවත් භාෂා නිකුත් කෙරේ",
+            "description": "EN ,SI හෝ යොදන්න.. ඉදිරියේ තවත් භාෂා නිකුත් කෙරේ",
             "required": true,
             "value": "EN"
         },
