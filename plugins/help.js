@@ -83,7 +83,7 @@ if (Config.LANG == 'EN') {
 
 	 if (Config.LANG == 'SI') {
     
-    Asena.addCommand({pattern: 'help ?(.*)', fromMe: true, desc: h_DesSI}, (async (message, match) => {
+    Asena.addCommand({pattern: 'help ?(.*)', fromMe: true, desc: h_DedSI}, (async (message, match) => {
 
         if (match[1] === '') {
             return await message.client.sendMessage(
