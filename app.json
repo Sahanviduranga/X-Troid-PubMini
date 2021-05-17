@@ -9,12 +9,8 @@
     "stack": "container",
     "env": {
         "ASENA_SESSION": {
-            "description": "QR එක ස්කෑන් කල විට ලැබෙන් කේතය. Type here yours Asena Session.",
+            "description": "QR එක ස්කෑන් කල විට ලැබෙන් කේතය. Type here yours Session.",
             "required": true
-        },
-        "SUDO": {
-            "description": "Leave blank if you don't know how to use it! Sudo mode; Your number must be an international number. So you should have your number after the country code. Example: 1205xxxxxxxxx (USA number +1)",
-            "required": false
         },
         "LANGUAGE": {
             "description": "EN ,SI හෝ යොදන්න.. ඉදිරියේ තවත් භාෂා නිකුත් කෙරේ",
