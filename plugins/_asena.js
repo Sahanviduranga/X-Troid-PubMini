@@ -21,7 +21,7 @@ if (Config.WORKTYPE == 'private') {
         if (match[1] === '') {
             Asena.commands.map(
                 async (command) =>  {
-                    if (command.dontAddCommandList || command.pattern === undefined) return;
+                    if (command.dontAddCommandList || command.pattern === undefined) return;
                     try {
                         var match = command.pattern.toString().match(/(\W*)([A-Za-zğüşiö ç1234567890]*)/);
                     } catch {
@@ -51,7 +51,7 @@ if (Config.WORKTYPE == 'private') {
             var CMD_HELP = '';
             Asena.commands.map(
                 async (command) =>  {
-                    if (command.dontAddCommandList || command.pattern === undefined) return;
+                    if (command.dontAddCommandList || command.pattern === undefined) return;
                     try {
                         var cmatch = command.pattern.toString().match(/(\W*)([A-Za-zğüşiöç1234567890]*)/);
                     } catch {
@@ -76,7 +76,7 @@ if (Config.WORKTYPE == 'private') {
             );
             if (CMD_HELP === '') CMD_HELP += Lang.NOT_FOUND;
             await message.client.sendMessage(
-                message.jid,'╔════════════════════════════╗\n  ✥▬ *🍃X-Troid Lite PVT🚀* ▬✥\n\n' + CMD_HELP, MessageType.text
+                message.jid,'╔════════════════════╗\n  ✥▬ *🍃X-Troid Lite PVT🚀* ▬✥\n\n' + CMD_HELP, MessageType.text
             );
         }
     }));
@@ -89,7 +89,7 @@ else if (Config.WORKTYPE == 'public') {
         if (match[1] === '') {
             Asena.commands.map(
                 async (command) =>  {
-                    if (command.dontAddCommandList || command.pattern === undefined) return;
+                    if (command.dontAddCommandList || command.pattern === undefined) return;
                     try {
                         var match = command.pattern.toString().match(/(\W*)([A-Za-zğüşiö ç1234567890]*)/);
                     } catch {
@@ -112,14 +112,14 @@ else if (Config.WORKTYPE == 'public') {
             );
         
             await message.client.sendMessage(
-                message.jid,'✥▬ *🍃X-Troid Lite Public🚀* ▬✥\n _From Lasiya.ml_\n\n' + CMD_HELP, MessageType.text
+                message.jid,'╔════════════════════╗\n  ✥▬ *🍃X-Troid Lite PUB🚀* ▬✥\nLasiya.ml_\n\n' + CMD_HELP, MessageType.text
             );    
         } else {
 
             var CMD_HELP = '';
             Asena.commands.map(
                 async (command) =>  {
-                    if (command.dontAddCommandList || command.pattern === undefined) return;
+                    if (command.dontAddCommandList || command.pattern === undefined) return;
                     try {
                         var cmatch = command.pattern.toString().match(/(\W*)([A-Za-zğüşiöç1234567890]*)/);
                     } catch {
@@ -144,9 +144,8 @@ else if (Config.WORKTYPE == 'public') {
             );
             if (CMD_HELP === '') CMD_HELP += Lang.NOT_FOUND;
             await message.client.sendMessage(
-                message.jid,'✥▬ *🍃X-Troid Lite Public🚀* ▬✥\n _From Lasiya.ml_\n\n' + CMD_HELP, MessageType.text
+                message.jid,'╔════════════════════╗\n  ✥▬ *🍃X-Troid Lite PUB🚀* ▬✥\nFrom Lasiya.ml_\n\n' + CMD_HELP, MessageType.text
             );
         }
     }));
 }
-
