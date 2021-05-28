@@ -1,5 +1,3 @@
-
-  
 /* # Exclusively from danuma project 
 # Do not use this fore any commercial thing
 # If you abuse thais bot we wil kick you from bot 
