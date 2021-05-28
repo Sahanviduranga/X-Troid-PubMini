@@ -7,6 +7,7 @@ const Config = require('../config');
 const Language = require('../language');
 const Lang = Language.getString('ttp');
 
+
 if (Config.WORKTYPE == 'private') {
 
 Asena.addCommand({ pattern: 'zsky ?(.*)', fromMe: true, desc: Lang.SKY_DESC }, (async (message, match) => {
