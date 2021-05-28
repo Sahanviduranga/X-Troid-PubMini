@@ -18,7 +18,7 @@ const Lang = Language.getString('ttp');
 
 if (Config.WORKTYPE == 'private') {
 
-    Asena.addCommand({ pattern: 'tbt ?(.*)', fromMe: true, desc: Lang.BT_DESC }, (async (message, match) => {
+    Asena.addCommand({ pattern: 'zbt ?(.*)', fromMe: true, desc: Lang.BT_DESC }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(Lang.NEED_WORD);
 
@@ -31,7 +31,7 @@ if (Config.WORKTYPE == 'private') {
 
 else if (Config.WORKTYPE == 'public') {
 
-    Asena.addCommand({ pattern: 'tbt ?(.*)', fromMe: false, desc: Lang.BT_DESC }, (async (message, match) => {
+    Asena.addCommand({ pattern: 'zbt ?(.*)', fromMe: false, desc: Lang.BT_DESC }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(Lang.NEED_WORD);
 
