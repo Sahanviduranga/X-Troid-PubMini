@@ -492,9 +492,6 @@
             "MUSİC": "Music:",
             "M_AUT": "Music Author:"
         },
-        "zpack": {
-            "MAIN_INFO" : "Make awesome logo isntantly😋",
-             },
         "lyrics": {
             "LY_DESC": "Finds the lyrics of the song.",
             "NEED": "```You Must Write Any Song!```",
