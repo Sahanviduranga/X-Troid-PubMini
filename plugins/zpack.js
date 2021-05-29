@@ -27,7 +27,7 @@ if (Config.WORKTYPE == 'private') {
 
     }));
   },
-    if (Config.LANG == 'si') {
+    if (Config.LANG == 'SI') {
 
     Asena.addCommand({pattern: 'zpack', fromMe: true, desc: Lang.MAIN_INFO}, (async (message, match) => {    
 
