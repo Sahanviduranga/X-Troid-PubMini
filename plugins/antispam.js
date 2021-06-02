@@ -1,6 +1,7 @@
 const Asena = require('../events');
-
-const {MessageType} = require('@adiwajshing/baileys');
+const {MessageType, MessageOptions, Mimetype} = require('@adiwajshing/baileys');
+const axios = require('axios');
+const Config = require('../config');
 
 const Ln = ('This command for any emergency situation about any kind of WhatsApp SPAM in Group');
 
