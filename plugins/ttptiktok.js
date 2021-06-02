@@ -18,11 +18,11 @@ const Lang = Language.getString('ttp');
 
 if (Config.WORKTYPE == 'private') {
 
-    Asena.addCommand({ pattern: 'zttok ?(.*)', fromMe: true,dontAddCommandList: true}, (async (message, match) => {
+    Asena.addCommand({ pattern: 'zttok ?(.*)', fromMe: true, deleteCommand: false, desc: Lang.TTOK_DESC }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(Lang.NEED_WORD);
 
-        var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/ttlogo?text1=${match[1]}&text2=X-Troid`, { responseType: 'arraybuffer' })
+        var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/ttlogo?text1=${encodeURIComponent(match[1])}&text2=X-Troid`, { responseType: 'arraybuffer' })
 
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '🚀Made by X-Troid ☄️' })
 
@@ -31,11 +31,11 @@ if (Config.WORKTYPE == 'private') {
 
 else if (Config.WORKTYPE == 'public') {
 
-    Asena.addCommand({ pattern: 'zttok ?(.*)', fromMe: false, deleteCommand: false,dontAddCommandList: true}, (async (message, match) => {
+    Asena.addCommand({ pattern: 'zttok ?(.*)', fromMe: false, deleteCommand: false, desc: Lang.TTOK_DESC }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(Lang.NEED_WORD);
 
-        var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/ttlogo?text1=${match[1]}&text2=X-Troid`, { responseType: 'arraybuffer' })
+        var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/ttlogo?text1=${encodeURIComponent(match[1])}&text2=X-Troid`, { responseType: 'arraybuffer' })
 
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '🚀Made by X-Troid ☄️' })
 
