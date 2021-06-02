@@ -6,7 +6,7 @@ const Config = require('../config');
 
 const Language = require('../language');
 const Lang = Language.getString('ttp');
-
+const lex = "Make B&G logo"
 
 if (Config.WORKTYPE == 'private') {
 
@@ -20,7 +20,7 @@ Asena.addCommand({ pattern: 'zsky ?(.*)', fromMe: true, dontAddCommandList: true
 
     }));
         
-        Asena.addCommand({ pattern: 'zlogo ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+        Asena.addCommand({ pattern: 'zlogo ?(.*)', fromMe: true, desc: lex }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(Lang.NEED_WORD);
 
@@ -55,7 +55,7 @@ Asena.addCommand({ pattern: 'zccf ?(.*)', fromMe: false, dontAddCommandList: tru
 
     }));
         
-        Asena.addCommand({ pattern: 'zlogo ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
+        Asena.addCommand({ pattern: 'zlogo ?(.*)', fromMe: false, desc: lex}, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(Lang.NEED_WORD);
 
