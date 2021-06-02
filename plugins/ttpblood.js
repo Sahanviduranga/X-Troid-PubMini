@@ -16,7 +16,7 @@ const desk = "blood photo with your name"
 
 if (Config.WORKTYPE == 'private') {
 
-    Asena.addCommand({ pattern: 'blood ?(.*)', fromMe: true, desc: desk }, (async (message, match) => {
+    Asena.addCommand({ pattern: 'zblood ?(.*)', fromMe: true, desc: desk }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage();
 
@@ -29,7 +29,7 @@ if (Config.WORKTYPE == 'private') {
 
 else if (Config.WORKTYPE == 'public') {
 
-    Asena.addCommand({ pattern: 'blood ?(.*)', fromMe: false, desc: desk}, (async (message, match) => {
+    Asena.addCommand({ pattern: 'zblood ?(.*)', fromMe: false, desc: desk}, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage();
 
