@@ -11,7 +11,7 @@ if (Config.WORKTYPE == 'private') {
 
 
         
-        Asena.addCommand({ pattern: 'zlogo ?(.*)', fromMe: true, desc: Lang.SKY_DESC }, (async (message, match) => {
+        Asena.addCommand({ pattern: 'zlogo ?(.*)', fromMe: true,dontAddCommandList: true}, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(Lang.NEED_WORD);
 
@@ -24,7 +24,7 @@ if (Config.WORKTYPE == 'private') {
 
 else if (Config.WORKTYPE == 'public') {
         
-        Asena.addCommand({ pattern: 'zlogo ?(.*)', fromMe: false, desc: Lang.SKY_DESC }, (async (message, match) => {
+        Asena.addCommand({ pattern: 'zlogo ?(.*)', fromMe: false,dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(Lang.NEED_WORD);
 
