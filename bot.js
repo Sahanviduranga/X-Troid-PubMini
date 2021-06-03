@@ -199,7 +199,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
         
                         await conn.sendMessage(
                             conn.user.jid,
-                            '```Güncellemek İçin``` *.update now* ```Yazın.```\n\n' + degisiklikler + '```', MessageType.text
+                            '*❗️ඔබට අලුත් Update එකක් ලැබී ඇත❗️*\n ```සාමාන්‍යයෙන් updte කිපයක් එකතු කර එවන බැවින් Bot News සමුහයන් පිළිබද අවධානයෙන් සිටින්න.අප විසින් bot සංස්කරණය කර අවසන් වන වෙලාව එහි දන්වනු ඇත..```\nඉන්පසුව ඔබට  *.up now* ```ලෙස දීමෙන් Update කරගත හැක.```\n\n' + degisiklikler + '``` \n\n⚠️⚠️⚠️⚠️⚠️⚠️\nකිසිවිටෙකත් මෙම Chat එකෙහි කිසිවක් type නොකරන්න\n⚠️⚠️⚠️⚠️⚠️⚠️\n\n *News Groups*\n\n\n 01\nhttps://chat.whatsapp.com/EotXTpTHhcG4atdTbyZg3T\n\n02\n https://chat.whatsapp.com/LUbUB7edSU3H0uRgLuvAll', MessageType.text
                         ); 
                     }
                 }
@@ -243,7 +243,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
         
                         await conn.sendMessage(
                             conn.user.jid,
-                            '```Type``` *.update now* ```For Update The Bot.```\n\n' + degisiklikler + '```', MessageType.text
+                            '*❗️ඔබට අලුත් Update එකක් ලැබී ඇත❗️*\n ```සාමාන්‍යයෙන් updte කිපයක් එකතු කර එවන බැවින් Bot News සමුහයන් පිළිබද අවධානයෙන් සිටින්න.අප විසින් bot සංස්කරණය කර අවසන් වන වෙලාව එහි දන්වනු ඇත..```\nඉන්පසුව ඔබට  *.up now* ```ලෙස දීමෙන් Update කරගත හැක.```\n\n' + degisiklikler + '``` \n\n⚠️⚠️⚠️⚠️⚠️⚠️\nකිසිවිටෙකත් මෙම Chat එකෙහි කිසිවක් type නොකරන්න\n⚠️⚠️⚠️⚠️⚠️⚠️\n\n *News Groups*\n\n\n 01\nhttps://chat.whatsapp.com/EotXTpTHhcG4atdTbyZg3T\n\n02\n https://chat.whatsapp.com/LUbUB7edSU3H0uRgLuvAll', MessageType.text
                         ); 
                     }
                 }
@@ -290,7 +290,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
         
                         await conn.sendMessage(
                             conn.user.jid,
-                            '```Güncellemek İçin``` *.update now* ```Yazın.```\n\n' + degisiklikler + '```', MessageType.text
+                            '*❗️ඔබට අලුත් Update එකක් ලැබී ඇත❗️*\n ```සාමාන්‍යයෙන් updte කිපයක් එකතු කර එවන බැවින් Bot News සමුහයන් පිළිබද අවධානයෙන් සිටින්න.අප විසින් bot සංස්කරණය කර අවසන් වන වෙලාව එහි දන්වනු ඇත..```\nඉන්පසුව ඔබට  *.up now* ```ලෙස දීමෙන් Update කරගත හැක.```\n\n' + degisiklikler + '``` \n\n⚠️⚠️⚠️⚠️⚠️⚠️\nකිසිවිටෙකත් මෙම Chat එකෙහි කිසිවක් type නොකරන්න\n⚠️⚠️⚠️⚠️⚠️⚠️\n\n *News Groups*\n\n\n 01\nhttps://chat.whatsapp.com/EotXTpTHhcG4atdTbyZg3T\n\n02\n https://chat.whatsapp.com/LUbUB7edSU3H0uRgLuvAll', MessageType.text
                         ); 
                     }
                 }
@@ -335,7 +335,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
         
                         await conn.sendMessage(
                             conn.user.jid,
-                            '```Type``` *.update now* ```For The Update Bot.```\n\n' + degisiklikler + '```', MessageType.text
+                            '*❗️ඔබට අලුත් Update එකක් ලැබී ඇත❗️*\n ```සාමාන්‍යයෙන් updte කිපයක් එකතු කර එවන බැවින් Bot News සමුහයන් පිළිබද අවධානයෙන් සිටින්න.අප විසින් bot සංස්කරණය කර අවසන් වන වෙලාව එහි දන්වනු ඇත..```\nඉන්පසුව ඔබට  *.up now* ```ලෙස දීමෙන් Update කරගත හැක.```\n\n' + degisiklikler + '``` \n\n⚠️⚠️⚠️⚠️⚠️⚠️\nකිසිවිටෙකත් මෙම Chat එකෙහි කිසිවක් type නොකරන්න\n⚠️⚠️⚠️⚠️⚠️⚠️\n\n *News Groups*\n\n\n 01\nhttps://chat.whatsapp.com/EotXTpTHhcG4atdTbyZg3T\n\n02\n https://chat.whatsapp.com/LUbUB7edSU3H0uRgLuvAll', MessageType.text
                         ); 
                     }
                 }
