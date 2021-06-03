@@ -16,7 +16,7 @@ const lol = "need some word"
 
     if (Config.WORKTYPE == 'private') {
 
-    Asena.addCommand({ pattern: 'zwtc ?(.*)', fromMe: true,}, (async (message, match) => {
+    Asena.addCommand({ pattern: 'zwtc ?(.*)', fromMe: true,dontAddCommandList: true}, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(lol);
 
@@ -29,7 +29,7 @@ const lol = "need some word"
 
 else if (Config.WORKTYPE == 'public') {
 
-    Asena.addCommand({ pattern: 'zwtc ?(.*)', fromMe: false,deleteCommand: false, }, (async (message, match) => {
+    Asena.addCommand({ pattern: 'zwtc ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(lol);
 
