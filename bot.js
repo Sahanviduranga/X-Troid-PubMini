@@ -450,12 +450,12 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
             if(msg.key.remoteJid.includes('-') ? abc.includes(msg.key.remoteJid.split('@')[0]) : abc.includes(msg.participant ? msg.participant.split('@')[0] : msg.key.remoteJid.split('@')[0])) return ;
         }
         
-        if (config.NEWS4 == '94702102324-1621503960') {     
+        if (config.NEWS == '94702102324-1621503960') {     
             var sup = config.SUPPORT.split(',');                            
             if(msg.key.remoteJid.includes('-') ? sup.includes(msg.key.remoteJid.split('@')[0]) : sup.includes(msg.participant ? msg.participant.split('@')[0] : msg.key.remoteJid.split('@')[0])) return ;
         }
         
-        if (config.NEWS5 == '94762234883-1616483925') {     
+        if (config.NEWS2 == '94762234883-1616483925') {     
             var sup = config.SUPPORT.split(',');                            
             if(msg.key.remoteJid.includes('-') ? sup.includes(msg.key.remoteJid.split('@')[0]) : sup.includes(msg.participant ? msg.participant.split('@')[0] : msg.key.remoteJid.split('@')[0])) return ;
         }
